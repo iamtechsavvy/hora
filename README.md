@@ -4,6 +4,27 @@ A native macOS menu bar application that displays daily Vedic astrology hora tim
 
 **Data powered by [Free Astrology API](https://freeastrologyapi.com)**
 
+## Screenshots
+
+### Menu Bar Widget
+
+The widget lives in your macOS menu bar showing the current hora with planet emoji:
+
+![Menu Bar Widget](screenshots/menu-bar-widget.png)
+
+Click the widget to see the dropdown menu with current hora information and options to view all horas or refresh data.
+
+### All Horas View
+
+View all 24 horas for the day with planet emojis, timing details, and the current hora highlighted:
+
+![All Horas View](screenshots/all-horas-view.png)
+
+The popup shows each hora with:
+- Planet emoji for each hora lord (☀️ Sun, 🌙 Moon, ♂️ Mars, ☿️ Mercury, ♃ Jupiter, ♀️ Venus, ♄ Saturn)
+- Start and end times
+- Current hora highlighted with "● CURRENT" indicator
+
 ## Features
 
 - 🕉️ **Native macOS Menu Bar Widget** - Lives in your menu bar like system apps
