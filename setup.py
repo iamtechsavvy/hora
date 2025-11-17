@@ -17,7 +17,9 @@ OPTIONS = {
         'NSHighResolutionCapable': True,
         'LSUIElement': True,  # This makes it a menu bar only app (no dock icon by default)
     },
-    'packages': ['rumps', 'requests'],
+    'packages': ['rumps', 'requests', 'hora_fetcher'],
+    'includes': ['rumps', 'requests', 'hora_fetcher', 'objc', 'AppKit', 'Foundation'],
+    'excludes': ['tkinter', 'matplotlib', 'numpy', 'scipy', 'pandas'],
 }
 
 setup(
