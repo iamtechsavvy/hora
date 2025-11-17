@@ -7,7 +7,7 @@ APP = ['hora_gui.py']
 DATA_FILES = []
 OPTIONS = {
     'argv_emulation': False,
-    'iconfile': None,
+    'iconfile': 'hora_icon.icns',
     'plist': {
         'CFBundleName': 'Hora Widget',
         'CFBundleDisplayName': 'Hora Widget',
