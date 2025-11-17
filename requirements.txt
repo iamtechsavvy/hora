@@ -1,0 +1,4 @@
+requests>=2.31.0
+flask>=3.0.0
+rumps>=0.4.0
+PyObjC>=10.0; sys_platform == 'darwin'
